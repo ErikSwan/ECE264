@@ -1,0 +1,12 @@
+GDB commands:
+    list
+    r(un)
+    b(reakpoint)
+    n(ext)
+    print
+    s(tep)
+    info
+    b(ack)t(rack)
+    display
+    disable
+    f(frame)

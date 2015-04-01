@@ -1,0 +1,14 @@
+to use the tester, do the following:
+
+1. compile call_make_words.c to a file called p1.o
+   gcc -c -g call_make_words.c -o p1.o
+
+2. compile call_general_make_words to a file called p4.o
+   gcc -c -g call_general_make_words.c -o p4.o
+
+3. change line 4 in tester
+   old: OBJPATH="/usr/share/exams/exam3_extras"
+   new: OBJPATH="."
+
+make sure p1.o, p4.o, and the samples/ directory are all in the same folder as
+the tester script.

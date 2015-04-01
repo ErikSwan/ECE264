@@ -1,0 +1,20 @@
+~~~~~~~~~~~~~~~~
+Comments:
+~~~~~~~~~~~~~~~~
+On the first part, I wasn't sure if I was supposed to swap the strings by
+swapping their data, or by changing how the strings were passed to the function
+and swap the strings by swapping the pointers themselves. I tried the first 
+approach but struggled for a long time with getting segmentation faults. 
+Eventually I realized this was because of the way the strings were initialized 
+in main:
+
+>   const char * str1 = "one";
+
+Because the strings are declared like this, the actual string ("one") is
+stored in the read-only portion of the memory allocated for the process, and
+str1 simply contains the address of this location in memory. If you try to
+swap the data at the locations str1 and str2, you will get a segmentation
+fault because you are attempting to modify the read-only portion of the
+program's memory. I ended up having swapString take two 'char **' and
+modifying the pointers of str1 and str2 directly. It would be helpful if it
+was discussed/explained why the first approach doesn't work.

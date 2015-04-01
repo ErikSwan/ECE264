@@ -1,0 +1,12 @@
+cfa
+cfn
+cja
+cjn
+wfa
+wfn
+wja
+wjn
+mfa
+mfn
+mja
+mjn

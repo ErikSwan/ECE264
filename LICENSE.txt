@@ -2,7 +2,9 @@ The MIT License (MIT)
 
 Copyright (c) 2015 Erik Swan
 
-This license applies to the work of Erik Swan contained herein, and only the work of Erik Swan. All other intellectual property contained herein falls under the license(s) assigned by their respective copyright holders.
+This license applies to the work of Erik Swan contained herein, and only the
+work of Erik Swan. All other intellectual property contained herein falls
+under the license(s) assigned by their respective copyright holders.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

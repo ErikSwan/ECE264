@@ -1,0 +1,39 @@
+EXAM 4
+
+PROBLEMS ONE AND TWO  (30% each)
+
+The first two problems ask you to complete two C programs that are
+provided by us in mostly complete form.  The details are described in the .c
+files and the hidestrings.h file.
+
+There is a Makefile provided that can make either program.
+   "make hidestrings" will make the executable hidestrings from hidestrings.c.
+   "make restorestrings" will make the executable restorestrings from restorestrings.c.
+
+You should not have to modify any part of those files except the ALL
+CAPS COMMENTS where you are requested to place code.
+
+Each program stands alone (has its own main() function) and is
+controlled from the command line as described in the help message it
+prints out if given no arguments.
+
+
+We provide sample inputs and outputs for hidestrings in the directory samples/
+The inputs and outputs for restorestrings are just the reverse of those for hidestrings.
+
+
+PROBLEM THREE, A to H (5% each)
+
+Modify the files lists.h and listfunctions.c as described therein.
+
+The file listmain.c is provided to compile with listfunctions.c and provide command-line testing.
+
+Use "make listmain" to make the executable listmain that does this command-line testing.
+
+
+ALL PROBLEMS
+
+In addition to sample inputs and outputs, a tester script that tests a few
+testcases for each problem is provided.  The tester script does not run a check
+for memory errors. Also, note that the grading scripts will very likely be more
+sophisticated (and test more corner cases) than the tester script.
